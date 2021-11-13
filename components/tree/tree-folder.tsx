@@ -10,7 +10,7 @@ import TreeStatusIcon from './tree-status-icon'
 import { sortChildren, makeChildPath, stopPropagation } from './tree-help'
 
 interface Props {
-  name: string
+  name: any
   extra?: string
   parentPath?: string
   level?: number
